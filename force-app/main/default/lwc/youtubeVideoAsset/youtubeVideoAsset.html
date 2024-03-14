@@ -1,0 +1,9 @@
+<template>
+    <template if:true={youTubeId}>
+        <div lwc:dom="manual"></div>
+    </template>
+    <template if:false={youTubeId}>
+        <lightning-card  title="Empty YouTube ID found. Please specify a YouTube ID."></lightning-card>
+    </template>
+    <div class="comp"></div>
+</template>
